@@ -1,0 +1,2 @@
+- In TS projects, you may want to use separate tsconfig files for different sections of the codebase.
+- You can also have a project-wide tsconfig file that the sections fall back on.
