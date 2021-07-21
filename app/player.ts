@@ -1,8 +1,9 @@
-import './person'
+import { Person } from './person'
 
-class Player implements Person {
+export class Player implements Person {
     name: string;
-    age: number;
+    age: number; // this was set to optional on the interface
+    highScore: number;
 
     formatName() {
         return this.name.toUpperCase()
