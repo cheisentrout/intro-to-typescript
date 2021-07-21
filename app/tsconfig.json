@@ -3,7 +3,7 @@
     "compilerOptions": {
         "removeComments": true,
     },
-    // "glob":
+    // "glob" - an array of what files to include... not totally clear on what the asterisks mean:
     "include": [
         "./**/*"
     ]
